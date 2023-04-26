@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DoIt</string>
+    <string name="task">Task</string>
+    <string name="new_task">New task</string>
+    <string name="save">Save</string>
+    <string name="phone_num">Phone Number</string>
+    <string name="sendBtn">Get OTP</string>
+    <string name="otp">Enter OTP</string>
+    <string name="verifyBtn">Verify</string>
+    <string name="Sign_out">SIGN OUT</string>
+    <string name="first">DO</string> <!-- TEXT VIEW 1 OF SPLASH SCREEN-->
+    <string name="last">IT</string>   <!-- TEXT VIEW 2 OF SPLASH SCREEN-->
+</resources>

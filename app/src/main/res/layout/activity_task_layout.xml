@@ -1,0 +1,43 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tool="http://schemas.android.com/tools"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="8dp"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <CheckBox
+            android:id="@+id/TaskCheckbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tool:text="This is a sample task"
+            android:paddingStart="8dp"
+            tool:ignore="RtlSymmetry"
+            android:buttonTint="@color/holo_green_dark"/>
+
+
+        <ImageButton
+            android:id="@+id/deleteTaskBtn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="5dp"
+            android:background="@null"
+            android:src="@drawable/baseline_delete_24"
+            android:contentDescription="none"
+            tool:ignore="HardcodedText" />
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
